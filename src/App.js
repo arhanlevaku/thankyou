@@ -14,6 +14,8 @@ const componentClassInstance = new ComponentClass();
 console.log('regularClassInstance', regularClassInstance);
 console.log('componentClassInstance', componentClassInstance); */
 
+
+
 class App extends Component {
 
     constructor() {
@@ -25,6 +27,9 @@ class App extends Component {
        // this.showLess = this.showLess.bind(this);
        this.toggelDisplayBio = this.toggelDisplayBio.bind(this);
     } 
+
+    
+    
 
     /* readMore() {
 
@@ -46,17 +51,17 @@ class App extends Component {
         return(
             <div>
                 <img src={Profile} alt='Profile' className='profile'/>
-                <h1 align="left">Hello Adam,</h1>
-                <p align="left" >Thank you so much for meeting with me on Monday. It was a pleasure to learn more about the team and position, and I’m very excited about the opportunity to join Finra and help bring in new capabilities to delight both internal and external clients.</p>
-                <p align="left">I look forward to hearing from you about the next steps in the hiring process, and please do not hesitate to contact me if I can provide additional information.</p>
+                <h1 align="left">Hello AWS Team,</h1>
+                <p align="left" ><h4>Thank you so much for meeting with me on 05/12. It was a pleasure to learn more about the team and the role, and I’m very excited about the opportunity to join AWS and will help bring in new capabilities to delight both internal and external clients. 
+                I look forward to hearing from you about the next steps in the hiring process, and please do not hesitate to contact me if I can provide additional information.</h4></p>
                 {
                 this.state.displayBio ? 
                 (
                 <div>
                  
-                <p align="left">I'm someone who is extremely passionate about work; motivate and inspire teams to be their best.</p>
-                <p align="left">Built this react app to demonstrate that I can lead with an example, bring in my 20+ years of experience, intelligence and integrity, and new ways of leading to Finra</p>
-                <p align="left">PS: This react app is hosted in AWS amplify. :-)</p>
+                <p align="left"><h4>I'm someone who is extremely passionate about work; motivate and inspire teams to be their best. I lead by an example, bring in over 20+ years of experience, intelligence and integrity, and new ways of leading to AWS</h4></p>
+                <p align="left"><h4>Sincerely,</h4></p>
+                <p align="left"><h5>Anand R.</h5></p>
                  
                 <button align="left" onClick={this.toggelDisplayBio }> show less</button>
                 </div> ) : (
@@ -70,6 +75,8 @@ class App extends Component {
             </div>
         )
     }
+
+    
 
 }
 

@@ -16,13 +16,16 @@ body {
 }
 
 h1,
-h3,
-h4,
+
+
 h5 {
   font-family: "EconomicaBold";
 }
 
-h2 {
+h2,
+h4,
+h3
+ {
   font-family: "RobotoCondensed";
 }
 

@@ -52,16 +52,16 @@ class App extends Component {
             <div>
                 <img src={Profile} alt='Profile' className='profile'/>
                 <h1 align="left">Hello AWS Team,</h1>
-                <p align="left" ><h4>Thank you so much for meeting with me on 05/12. It was a pleasure to learn more about the team and the role, and I’m very excited about the opportunity to join AWS and will help bring in new capabilities to delight both internal and external clients. 
+                <p align="left" ><h4>Thank you so much for meeting with me on 05/12. It was a pleasure to learn more about the team and the role, and I’m very excited about the opportunity to join AWS. I bring stong analytical, leadership, and problem-solving skills that will help delight both internal and external clients. 
                 I look forward to hearing from you about the next steps in the hiring process, and please do not hesitate to contact me if I can provide additional information.</h4></p>
                 {
                 this.state.displayBio ? 
                 (
                 <div>
                  
-                <p align="left"><h4>I'm someone who is extremely passionate about work; motivate and inspire teams to be their best. I lead by an example, bring in over 20+ years of experience, intelligence and integrity, and new ways of leading to AWS</h4></p>
-                <p align="left"><h4>Sincerely,</h4></p>
-                <p align="left"><h5>Anand R.</h5></p>
+                <p align="left"><h4>I'm someone who is extremely passionate about work, and I motivate and inspire teams to do their best. I lead by example, bringing in over 20+ years of experience, intelligence, and integrity to AWS.</h4></p>
+                <p align="left"><h3>Sincerely,</h3></p>
+                <p align="left"><h3>Anand R.</h3></p>
                  
                 <button align="left" onClick={this.toggelDisplayBio }> show less</button>
                 </div> ) : (
